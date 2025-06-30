@@ -1,0 +1,332 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Python to Cybersecurity Roadmap</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Sticky Header -->
+    <header class="header">
+      <div class="header-content">
+        <h1>🐍 Python to Cybersecurity Roadmap</h1>
+        <button class="menu-toggle" id="menuToggle">☰</button>
+      </div>
+    </header>
+
+    <!-- Navigation Sidebar -->
+    <nav class="sidebar" id="sidebar">
+      <div class="sidebar-content">
+        <h3>Navigation</h3>
+        <ul class="nav-list" id="navList">
+          <!-- Navigation items will be populated by JavaScript -->
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+      <div class="container">
+        <!-- Level 1: Python Basics -->
+        <section class="level-card" id="level-1" data-level="1">
+          <div class="level-header" data-toggle="level-1">
+            <div class="level-icon">🌱</div>
+            <div class="level-info">
+              <h2>Level 1: Python Basics</h2>
+              <p class="level-goal">Master Python fundamentals and programming concepts</p>
+            </div>
+            <div class="toggle-icon">▼</div>
+          </div>
+          <div class="level-content">
+            <div class="topics-section">
+              <h3>📚 Topics to Learn</h3>
+              <ul>
+                <li>Variables, data types, and operators</li>
+                <li>Control flow (if/else, loops)</li>
+                <li>Functions and modules</li>
+                <li>Lists, dictionaries, and sets</li>
+                <li>File handling and exceptions</li>
+                <li>Object-oriented programming basics</li>
+                <li>Regular expressions</li>
+              </ul>
+            </div>
+            <div class="projects-section">
+              <h3>🛠️ Practice Projects</h3>
+              <ul>
+                <li>Password generator with custom rules</li>
+                <li>File organizer script</li>
+                <li>Simple calculator with GUI</li>
+                <li>Text file analyzer (word count, frequency)</li>
+                <li>Basic web scraper for public data</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <!-- Level 2: Advanced Python -->
+        <section class="level-card" id="level-2" data-level="2">
+          <div class="level-header" data-toggle="level-2">
+            <div class="level-icon">🚀</div>
+            <div class="level-info">
+              <h2>Level 2: Advanced Python</h2>
+              <p class="level-goal">Deepen Python skills for professional development</p>
+            </div>
+            <div class="toggle-icon">▼</div>
+          </div>
+          <div class="level-content">
+            <div class="topics-section">
+              <h3>📚 Topics to Learn</h3>
+              <ul>
+                <li>Advanced OOP (inheritance, polymorphism)</li>
+                <li>Decorators and context managers</li>
+                <li>Multithreading and asyncio</li>
+                <li>Working with APIs and JSON</li>
+                <li>Database connectivity (SQLite, PostgreSQL)</li>
+                <li>Testing with pytest</li>
+                <li>Virtual environments and package management</li>
+              </ul>
+            </div>
+            <div class="projects-section">
+              <h3>🛠️ Practice Projects</h3>
+              <ul>
+                <li>REST API client for vulnerability databases</li>
+                <li>Multi-threaded port scanner</li>
+                <li>Database-backed log analyzer</li>
+                <li>Automated report generator</li>
+                <li>Configuration management tool</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <!-- Level 3: Network Fundamentals -->
+        <section class="level-card" id="level-3" data-level="3">
+          <div class="level-header" data-toggle="level-3">
+            <div class="level-icon">🌐</div>
+            <div class="level-info">
+              <h2>Level 3: Network Fundamentals</h2>
+              <p class="level-goal">Understand networking concepts essential for cybersecurity</p>
+            </div>
+            <div class="toggle-icon">▼</div>
+          </div>
+          <div class="level-content">
+            <div class="topics-section">
+              <h3>📚 Topics to Learn</h3>
+              <ul>
+                <li>OSI and TCP/IP models</li>
+                <li>IP addressing and subnetting</li>
+                <li>Common protocols (HTTP/HTTPS, DNS, DHCP)</li>
+                <li>Firewalls and network security</li>
+                <li>Packet analysis with Wireshark</li>
+                <li>Network scanning and enumeration</li>
+                <li>Python socket programming</li>
+              </ul>
+            </div>
+            <div class="projects-section">
+              <h3>🛠️ Practice Projects</h3>
+              <ul>
+                <li>Network scanner using Python sockets</li>
+                <li>Packet sniffer and analyzer</li>
+                <li>Simple intrusion detection system</li>
+                <li>Network topology mapper</li>
+                <li>DNS enumeration tool</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <!-- Level 4: Web Security Basics -->
+        <section class="level-card" id="level-4" data-level="4">
+          <div class="level-header" data-toggle="level-4">
+            <div class="level-icon">🔒</div>
+            <div class="level-info">
+              <h2>Level 4: Web Security Basics</h2>
+              <p class="level-goal">Learn web application security fundamentals</p>
+            </div>
+            <div class="toggle-icon">▼</div>
+          </div>
+          <div class="level-content">
+            <div class="topics-section">
+              <h3>📚 Topics to Learn</h3>
+              <ul>
+                <li>OWASP Top 10 vulnerabilities</li>
+                <li>SQL injection and prevention</li>
+                <li>Cross-site scripting (XSS)</li>
+                <li>Authentication and session management</li>
+                <li>HTTPS and SSL/TLS</li>
+                <li>Web application firewalls</li>
+                <li>Burp Suite and OWASP ZAP</li>
+              </ul>
+            </div>
+            <div class="projects-section">
+              <h3>🛠️ Practice Projects</h3>
+              <ul>
+                <li>Vulnerable web app scanner</li>
+                <li>SQL injection detection tool</li>
+                <li>XSS payload generator</li>
+                <li>SSL/TLS certificate checker</li>
+                <li>Web application security scanner</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <!-- Level 5: Penetration Testing Fundamentals -->
+        <section class="level-card" id="level-5" data-level="5">
+          <div class="level-header" data-toggle="level-5">
+            <div class="level-icon">⚔️</div>
+            <div class="level-info">
+              <h2>Level 5: Penetration Testing Fundamentals</h2>
+              <p class="level-goal">Master ethical hacking and penetration testing techniques</p>
+            </div>
+            <div class="toggle-icon">▼</div>
+          </div>
+          <div class="level-content">
+            <div class="topics-section">
+              <h3>📚 Topics to Learn</h3>
+              <ul>
+                <li>Penetration testing methodology</li>
+                <li>Information gathering and reconnaissance</li>
+                <li>Vulnerability scanning and assessment</li>
+                <li>Exploitation techniques</li>
+                <li>Post-exploitation and privilege escalation</li>
+                <li>Metasploit framework</li>
+                <li>Report writing and documentation</li>
+              </ul>
+            </div>
+            <div class="projects-section">
+              <h3>🛠️ Practice Projects</h3>
+              <ul>
+                <li>Automated reconnaissance framework</li>
+                <li>Custom exploit development</li>
+                <li>Vulnerability assessment pipeline</li>
+                <li>Penetration testing report generator</li>
+                <li>Social engineering toolkit</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <!-- Level 6: Incident Response & Digital Forensics -->
+        <section class="level-card" id="level-6" data-level="6">
+          <div class="level-header" data-toggle="level-6">
+            <div class="level-icon">🔍</div>
+            <div class="level-info">
+              <h2>Level 6: Incident Response & Digital Forensics</h2>
+              <p class="level-goal">Learn to investigate and respond to security incidents</p>
+            </div>
+            <div class="toggle-icon">▼</div>
+          </div>
+          <div class="level-content">
+            <div class="topics-section">
+              <h3>📚 Topics to Learn</h3>
+              <ul>
+                <li>Incident response procedures</li>
+                <li>Digital evidence collection</li>
+                <li>Memory and disk forensics</li>
+                <li>Network forensics and analysis</li>
+                <li>Malware analysis basics</li>
+                <li>Timeline analysis</li>
+                <li>Forensic tools (Volatility, Autopsy)</li>
+              </ul>
+            </div>
+            <div class="projects-section">
+              <h3>🛠️ Practice Projects</h3>
+              <ul>
+                <li>Incident response automation tool</li>
+                <li>Memory dump analyzer</li>
+                <li>Network traffic forensics tool</li>
+                <li>Malware sandbox environment</li>
+                <li>Digital evidence documentation system</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <!-- Level 7: Advanced Cybersecurity Tools -->
+        <section class="level-card" id="level-7" data-level="7">
+          <div class="level-header" data-toggle="level-7">
+            <div class="level-icon">🛡️</div>
+            <div class="level-info">
+              <h2>Level 7: Advanced Cybersecurity Tools</h2>
+              <p class="level-goal">Master advanced security tools and automation</p>
+            </div>
+            <div class="toggle-icon">▼</div>
+          </div>
+          <div class="level-content">
+            <div class="topics-section">
+              <h3>📚 Topics to Learn</h3>
+              <ul>
+                <li>SIEM systems and log analysis</li>
+                <li>Threat hunting techniques</li>
+                <li>Security orchestration and automation</li>
+                <li>Machine learning for cybersecurity</li>
+                <li>Cloud security (AWS, Azure, GCP)</li>
+                <li>Container security (Docker, Kubernetes)</li>
+                <li>DevSecOps practices</li>
+              </ul>
+            </div>
+            <div class="projects-section">
+              <h3>🛠️ Practice Projects</h3>
+              <ul>
+                <li>Custom SIEM dashboard</li>
+                <li>Threat intelligence aggregator</li>
+                <li>Security automation playbooks</li>
+                <li>ML-based anomaly detection system</li>
+                <li>Cloud security monitoring tool</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <!-- Level 8: Professional Cybersecurity Skills -->
+        <section class="level-card" id="level-8" data-level="8">
+          <div class="level-header" data-toggle="level-8">
+            <div class="level-icon">👑</div>
+            <div class="level-info">
+              <h2>Level 8: Professional Cybersecurity Skills</h2>
+              <p class="level-goal">Develop professional expertise and leadership skills</p>
+            </div>
+            <div class="toggle-icon">▼</div>
+          </div>
+          <div class="level-content">
+            <div class="topics-section">
+              <h3>📚 Topics to Learn</h3>
+              <ul>
+                <li>Cybersecurity frameworks (NIST, ISO 27001)</li>
+                <li>Risk assessment and management</li>
+                <li>Compliance and regulatory requirements</li>
+                <li>Business continuity planning</li>
+                <li>Security awareness training</li>
+                <li>Professional certifications (CISSP, CEH, OSCP)</li>
+                <li>Leadership and communication skills</li>
+              </ul>
+            </div>
+            <div class="projects-section">
+              <h3>🛠️ Practice Projects</h3>
+              <ul>
+                <li>Comprehensive security assessment framework</li>
+                <li>Risk management dashboard</li>
+                <li>Security awareness training platform</li>
+                <li>Compliance monitoring system</li>
+                <li>Executive security reporting tool</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <p>Made by Eyob – Learn. Build. Secure.</p>
+    </footer>
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
